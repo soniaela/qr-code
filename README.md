@@ -13,8 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -36,7 +34,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://soniaela.github.io/qr-code/)
 
 ## My process
 
@@ -45,28 +43,35 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+CSS Variables
+Whilst not indispensable, I added all the colors provided by the style guide as a variable for practice purposes.
+All the variables are added to the root to make them global. Since this is a small project, I did not think declaring variables with limited scope would be necessary. 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+CSS 'local' variable example:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#menu-items {
+  --menu-color-blue: blue;
+}
+ 
+#menu-items a {
+  color: var(--menu-color-blue);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+CSS 'global variable example:
+```css
+:root {
+  --orange-color: #FF933A;
+}
+
+body {
+  background-color: var(--orange-color);
 }
 ```
 
