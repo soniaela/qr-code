@@ -34,7 +34,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://soniaela.github.io/qr-code/)
+- Live Site URL: https://soniaela.github.io/qr-code/
 
 ## My process
 
@@ -49,8 +49,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-CSS Variables
-Whilst not indispensable, I added all the colors provided by the style guide as a variable for practice purposes.
+CSS Variables - Whilst not indispensable, I added all the colors provided by the style guide as a variable for practice purposes.
+
 All the variables are added to the root to make them global. Since this is a small project, I did not think declaring variables with limited scope would be necessary. 
 
 CSS 'local' variable example:
@@ -84,5 +84,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- https://dev.to/ljcdev/a-quick-hack-to-using-local-images-on-codepen-4cfp - Help in how to store images on codepen.io pens. 
+
