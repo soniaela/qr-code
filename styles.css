@@ -28,6 +28,8 @@
 img {
   border-radius: 10px;
   width: 240px;
+  display: block;
+  max-width: 100%; 
   
 }
 
