@@ -19,7 +19,8 @@ This challenge consists of building a QR code component and get it looking as cl
 
 ### Screenshot
 
-![](./screenshot.jpg)
+https://github.com/soniaela/qr-code/blob/main/Solution%20Screenshot%20-%20Desktop.png
+
 
 
 
