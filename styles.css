@@ -1,49 +1,62 @@
-*{
-   text-align: center;
+*::before, *::after {
+   box-sizing: border-box;
+  
+  
+}
+
+:root {
+  --wrapper-white: #FFFFFF;
+  --canvas-grey: hsl(212, 45%, 89%);
+  --h3-color: hsl(218, 44%, 22%);
+  --p-color: hsl(220, 15%, 55%); 
   
 }
 
 body {
   width: 100%;
   height: 100vh;
-  background: hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Outfit', serif; 
+  background-color: var(--canvas-grey);
   
 }
 
 .wrapper {
-  width: 250px;
+  width: 15.62rem; /*250px based on root font-size of 16px*/
   max-width: 100%;
-  height: 400px;
-  border-radius: 10px;
-  padding: 10px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  margin: 20px;
-  background: white;
+  height: 25rem; /*400px*/
+  border-radius: 0.62rem; /*10px*/
+  padding: 0.62rem;
+  padding-top: 0.93rem; /*15px*/
+  padding-bottom: 1.25rem; /*20px*/
+  margin: 1.25rem;
+  background-color: var(--wrapper-white);
   overflow: hidden;
  
 }
 
 img {
   max-width: 100%;
-  border-radius: 10px;
-  width: 240px;
+  border-radius: 0.62rem;
+  width: 15rem; /*240px*/
   
 }
 
 h3 {
   font-weight: 700;
   font-size: 20px;
-  color: hsl(218, 44%, 22%);
-  font-family: 'Outfit', serif;
+  color: var(--h3-color);
+  
 }
 
+
 p {
-  font-size: 15px;
+  
   font-weight: 400;
-  color: hsl(220, 15%, 55%);
-  font-family: 'Outfit', serif;
+  color: var(--p-color);
+  
 }
